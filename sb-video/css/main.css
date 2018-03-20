@@ -439,9 +439,7 @@ h1, h2, h3, h4, h5, h6 {
 .header__menu {
   width: 100%;
   border-bottom: 3px #ec5f61 solid;
-  background-color: #f7f7f7;
-  position: absolute;
-  margin-top: -183px; }
+  background-color: rgba(247, 247, 247, 0.9); }
 
 .header__grid {
   display: flex;
@@ -489,8 +487,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .header__block {
   background: linear-gradient(180deg, rgba(236, 95, 97, 0.6), rgba(236, 95, 97, 0) 30%);
-  height: 332px;
-  margin-top: 183px; }
+  height: 332px; }
 
 .header__sections-grid {
   padding-top: 122px;
