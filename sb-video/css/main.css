@@ -1,12 +1,16 @@
 @font-face {
   font-family: 'Akrobat-Black';
   src: url(../fonts/Akrobat-Black.ttf);
+  src: url(../fonts/Akrobat-Black.eot);
+  src: url(../fonts/Akrobat-Black.eot?#iefix) format("embedded-opentype"), url(../fonts/Akrobat-Black.woff) format("woff"), url(../fonts/Akrobat-Black.ttf) format("truetype"), url(../fonts/Akrobat-Black.svg#fonts) format("svg");
   font-weight: bold;
   font-style: normal; }
 @font-face {
   font-family: 'Akrobat-regular';
   src: url(../fonts/Akrobat-Regular.ttf);
-  font-weight: bold;
+  src: url(../fonts/Akrobat-Regular.eot);
+  src: url(../fonts/Akrobat-Regular.eot?#iefix) format("embedded-opentype"), url(../fonts/Akrobat-Regular.woff) format("woff"), url(../fonts/Akrobat-Regular.ttf) format("truetype"), url(../fonts/Akrobat-Regular.svg#fonts) format("svg");
+  font-weight: normal;
   font-style: normal; }
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 /**
@@ -450,7 +454,8 @@ h1, h2, h3, h4, h5, h6 {
   padding: 32px 0; }
 
 .header__grid-item img {
-  width: 125px; }
+  width: 125px;
+  height: 125px; }
 
 .header__link-grid {
   display: flex;
@@ -479,7 +484,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 21px;
   font-family: Akrobat-Black, serif;
   margin-top: 20px;
-  width: 140px; }
+  width: 165px; }
 
 .item-selected {
   font-family: Akrobat-Black, serif;
