@@ -415,9 +415,6 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   font-weight: normal; }
 
-div {
-  transition: .5s ease-in-out; }
-
 .strong {
   font-family: 'Montserrat', sans-serif;
   font-weight: 800; }
@@ -555,7 +552,8 @@ body {
   border-left: #e3e3e3 solid 8px;
   border-bottom: #e3e3e3 solid 0;
   border-right: #e3e3e3 solid 0;
-  cursor: pointer; }
+  cursor: pointer;
+  transition: .5s ease-in-out; }
 
 .footer__price-list-button:hover {
   border-bottom: #e3e3e3 solid 8px;
